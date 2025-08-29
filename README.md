@@ -38,8 +38,8 @@ Stop
 
 ## Program:
 ```
-Name: Sivabalan M
-Reg no:212224230269
+Name: Naveen KumarS
+Reg no:212224040214
 ```
 
 ~~~cs
@@ -68,7 +68,9 @@ public class rotation : MonoBehaviour
 
 ## Output:
 
-![alt text](image.png)
+<img width="1901" height="943" alt="output image" src="https://github.com/user-attachments/assets/3777c2ac-2659-48c1-8495-78fbacedb5c6" />
+
+
 
 ## Result:
 The 3D application for rotating the gaming objects in unity is executed sucessfully.
