@@ -1,8 +1,5 @@
  # Rotating-the-Gaming-Object
 
- # Name : Naveen Kumar S
- # REG NO : 212224040214
-
 ## Aim:
 To develop a 3D application for rotating the gaming objects in unity.
 ## Algorithm:
@@ -40,31 +37,39 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
-'''
+```
+Name: Naveen kumar S
+Reg no:212224040214
+```
+
+~~~cs
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class rotate : MonoBehaviour
+public class rotation : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(Vector3.left,Vector3.up, 40 * Time.deltaTime);
-    }
+       transform.RotateAround(Vector3.left,Vector3.up, 40 * Time.deltaTime);
+    }
 }
 
-'''
+
+~~~
+
 ## Output:
+
 ![alt text](<output image.png>)
 
-
 ## Result:
-Thus the output for the rotating the object successfully displayed.
+The 3D application for rotating the gaming objects in unity is executed sucessfully.
 
