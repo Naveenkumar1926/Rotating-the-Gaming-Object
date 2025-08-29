@@ -1,4 +1,4 @@
-# Rotating-the-Gaming-Object
+ # Rotating-the-Gaming-Object
 
 ## Aim:
 To develop a 3D application for rotating the gaming objects in unity.
@@ -37,7 +37,39 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```
+Name: Sivabalan M
+Reg no:212224230269
+```
+
+~~~cs
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class rotation : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+       transform.RotateAround(Vector3.left,Vector3.up, 40 * Time.deltaTime);
+    }
+}
+
+
+~~~
 
 ## Output:
 
+![alt text](image.png)
+
 ## Result:
+The 3D application for rotating the gaming objects in unity is executed sucessfully.
+
